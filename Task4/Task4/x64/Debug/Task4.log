@@ -1,0 +1,3 @@
+﻿  Task4.cpp
+C:\Users\89522\source\repos\WorkExamples\Task4\Task4\Task4.cpp(15,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Task4.vcxproj -> C:\Users\89522\source\repos\WorkExamples\Task4\x64\Debug\Task4.exe
