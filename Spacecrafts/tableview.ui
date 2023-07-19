@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>tableview</class>
+ <widget class="QDialog" name="tableview">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>632</width>
+    <height>395</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Вывод таблицы</string>
+  </property>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>110</y>
+     <width>611</width>
+     <height>241</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ButtonCancel">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>360</y>
+     <width>84</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Отмена</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ButtonView">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>360</y>
+     <width>84</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Показать</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>611</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="2,9">
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Датчики</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="OptionsView"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>611</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="2,9">
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Аппараты</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="SpaceshipsView"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>611</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="2,9">
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Системы</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="OnboardsystemsView"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

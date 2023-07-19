@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>769</width>
+    <height>546</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Обработка данных</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout_6">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="1,9">
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Аппараты</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="SpaceShips"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="1,9">
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Системы</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="OnBoardSystems"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="1,9">
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Датчики</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="Options"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QListWidget" name="AdditemList"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="AddButton">
+      <property name="text">
+       <string>Добавить</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="clear">
+        <property name="text">
+         <string>График</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="TableViewButton">
+        <property name="text">
+         <string>Вывод таблицы</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="load">
+      <property name="text">
+       <string>Загрузить</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="graph_layout"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Диапозон дат min - max</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QDateTimeEdit" name="mindate">
+        <property name="dateTime">
+         <datetime>
+          <hour>11</hour>
+          <minute>0</minute>
+          <second>0</second>
+          <year>2022</year>
+          <month>6</month>
+          <day>11</day>
+         </datetime>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDateTimeEdit" name="maxdate">
+        <property name="dateTime">
+         <datetime>
+          <hour>11</hour>
+          <minute>0</minute>
+          <second>0</second>
+          <year>2022</year>
+          <month>6</month>
+          <day>12</day>
+         </datetime>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
